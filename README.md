@@ -22,7 +22,7 @@ export function createTranslateLoader(http: Http) {                 // 1. 加载
     BrowserModule,
     RouterModule,
     AppRoutingModule,
-    HomeModule,
+    HomeModule, 
     TranslateModule.forRoot({
       provide: TranslateLoader,
       useFactory: (createTranslateLoader),
