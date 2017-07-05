@@ -76,7 +76,7 @@ export class AppComponent {
 ## 6. 数据字典语言切换  `MainComponent`为例
     1. 页面翻译代码设置： main.component.html
     
-    `<td class="text-center">{{bill[name]}}</td>`   //name为语言表示字
+    `<td class="text-center">{{bill[name]}}</td>`   //name为语言标识字
     
     2. 组件
         1. 当前组件语言初始化
