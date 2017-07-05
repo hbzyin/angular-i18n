@@ -1,0 +1,21 @@
+{
+  "navTop1": " top nav 1",
+  "navTop2": " top nav 2",
+  "navTop3": " top nav 3",
+  "navLeft1": "left nav 1",
+  "navLeft2": "left nav 2",
+  "navLeft3": "left nav 3",
+
+  "HELLO1": "hello world in english with pipe!",
+  "HELLO2": "hello world in english with directive!",
+
+  "homePage": {
+    "title":"Welcome to the home page！",
+    "num":"number",
+    "st":"status"
+  },
+
+
+  "detailPage":"this is the detail page!",
+  "loginPage":"welcome to the login pages!! have a nice try."
+}

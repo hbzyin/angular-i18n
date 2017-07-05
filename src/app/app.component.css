@@ -1,0 +1,8 @@
+.main-container,.navbar-fixed-left {
+  min-height: 800px;
+}
+.main-container{  margin:42px 100px 0 100px;  }
+.navbar-fixed-left{
+  background-color:#f3f7fd;
+  min-width:100px;
+}

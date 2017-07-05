@@ -1,0 +1,21 @@
+{
+  "navTop1":" 首页",
+  "navTop2":" 登录",
+  "navTop3":" 详情",
+  "navLeft1":"导航1",
+  "navLeft2":"导航2",
+  "navLeft3":"导航3",
+
+
+  "HELLO1": "欢迎来到中文网站--管道。",
+  "HELLO2": "欢迎来到中文网站--指令。",
+
+
+  "homePage": {
+    "title":"欢迎来到首页！",
+    "num":"序号",
+    "st":"账单状态"
+  },
+  "detailPage":"欢迎，这是详情页!",
+  "loginPage":"欢迎来到登录页!!"
+}

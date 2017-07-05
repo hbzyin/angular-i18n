@@ -1,0 +1,20 @@
+<p>
+  {{'homePage.title'|translate }}
+</p>
+<div class="main-container">
+<table>
+  <th>
+    <tr>
+      <td class="text-center">{{'homePage.num'|translate}}</td>
+      <td class="text-center">{{'homePage.st'|translate}}</td>
+    </tr>
+  </th>
+  <tbody>
+  <tr *ngFor="let bill of billstate;let i=index ">
+    <td class="text-center">{{i}}</td>
+    <td class="text-center">{{bill[name]}}</td>
+  </tr>
+  </tbody>
+</table>
+
+</div>
