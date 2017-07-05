@@ -67,7 +67,7 @@ export class AppComponent {
   }
   changeLang(){                                       // 5.6 手动切换语言版本
     this.lang=this.lang=='en'?'zh':'en';      
-    localStorage.setItem("browserLag",this.lang);
+    localStorage.setItem("browserLang",this.lang);
     this.translate.use(this.lang);
   }
 }
