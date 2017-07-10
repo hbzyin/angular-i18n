@@ -43,7 +43,7 @@ export function createTranslateLoader(http: Http) {                 // 1. 加载
 ```
 ## 4. 配置翻译文件 
 
-根据2.1中配置的国际化文件路径创建国际化文件 如中英文两种，分别创建 `assets/i18n/en.json`、`assets/i18n/cn.json`文件
+根据2.1中配置的国际化文件路径创建国际化文件 如中英文两种，分别创建 `assets/i18n/en.json`、`assets/i18n/zh.json`文件
 
 ## 5. 根模块中启动国际化功能 `AppComponent`
     1. 引入服务；
