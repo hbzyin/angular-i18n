@@ -13,7 +13,7 @@ export class AppComponent {
   ) {
   }
   ngOnInit(){
-    this.translate.setDefaultLang('cn');              // 5.2 设置默认语言
+    this.translate.setDefaultLang('zh');              // 5.2 设置默认语言
     this.lang=this.translate.getBrowserCultureLang(); // 5.3 检测当前浏览器语言
     localStorage.setItem("browserLang",this.lang);     // 5.4 保存当前浏览器语言之本地存储  ----》供后续手动切换语言版本
     this.translate.use(this.lang);                    // 5.5 根据检测到语言，初始化语言版本
