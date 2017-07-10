@@ -1,9 +1,15 @@
 # DemoI18n
 
-## 1. 安装 *国际化插件* 
+## 一、 示例运行步骤：
+> 1. 克隆到本地：`git clone xxxx.git 'localdir'`
+> 2. 安装依赖包：`npm install`
+> 3. 本地运行：  `ng serve -o`   （此处带参数`-o`自动打开浏览器）
+
+## 二 、项目引入国际化操作步骤
+### 1. 安装 *国际化插件* 
   run `npm install ng2-translate --save`
   
-## 2. 根模块导入插件
+### 2. 根模块导入插件
     1. 自定义国际化文件路径; 
     2. 配置国际化模块 （每个模块均需导入）
         1. 根模块导入 ：TranslateModule.forRoot(...)
@@ -33,7 +39,7 @@ export function createTranslateLoader(http: Http) {                 // 1. 加载
   bootstrap: [AppComponent]
 ```
 
-## 3. 页面模板
+### 3. 页面模板
 
 页面中需要翻译的内容配置成变量
 如：
@@ -41,11 +47,11 @@ export function createTranslateLoader(http: Http) {                 // 1. 加载
   <div>{{ 'HELLO1' | translate }}</div>   // 管道方式，此种方式仅替换指定字段
   <div translate>HELLO2</div>             // 指令方式,此种方式替代标签内所有内容
 ```
-## 4. 配置翻译文件 
+### 4. 配置翻译文件 
 
 根据2.1中配置的国际化文件路径创建国际化文件 如中英文两种，分别创建 `assets/i18n/en.json`、`assets/i18n/zh.json`文件
 
-## 5. 根模块中启动国际化功能 `AppComponent`
+### 5. 根模块中启动国际化功能 `AppComponent`
     1. 引入服务；
     2. 设置默认语言；
     3. 检测当前浏览器语言;
@@ -53,7 +59,7 @@ export function createTranslateLoader(http: Http) {                 // 1. 加载
     5. 根据检测到语言，初始化语言版本;
     6. 手动切换语言版本事件
 ```angular2html
-export class AppComponent {
+export class AppComponent {c
   lang:string;
   constructor(
     public translate:TranslateService                 // 5.1 引入服务 
@@ -73,7 +79,7 @@ export class AppComponent {
 }
 ```
 
-## 6. 数据字典语言切换  `MainComponent`为例
+### 6. 数据字典语言切换  `MainComponent`为例
     1. 页面翻译代码设置： main.component.html
     
     `<td class="text-center">{{bill[name]}}</td>`   //name为语言标识字
