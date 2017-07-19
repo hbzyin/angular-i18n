@@ -1,9 +1,10 @@
-# DemoI18n
+# Angular2 I18n with ng2-translate module demo
 
 ## 一、 示例运行步骤：
-> 1. 克隆到本地：`git clone xxxx.git 'localdir'`
-> 2. 安装依赖包：`npm install`
-> 3. 本地运行：  `ng serve -o`   （此处带参数`-o`自动打开浏览器）
+> 1. 克隆到本地：`git clone git@github.com:hbzyin/angular-i18n.git 'angular-i18n'`
+> 2. 打开文件夹：`cd angular-i18n`
+> 3. 安装依赖包：`npm install`
+> 4. 本地运行：  `ng serve -o`   （此处带参数`-o`自动打开浏览器）
 
 ## 二 、项目引入国际化操作步骤
 ### 1. 安装 *国际化插件* 
