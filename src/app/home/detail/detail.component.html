@@ -1,3 +1,11 @@
 <p>
   {{"detailPage"|translate}}
 </p>
+
+
+<br>
+<br>
+<br>
+
+上传文件插件：
+<input type="file" ng2FileSelect [uploader]="uploader"  (change)="selectFileOnChanged($event)" (upload)="uploadFile()"/>

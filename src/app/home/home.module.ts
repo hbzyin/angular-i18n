@@ -6,12 +6,14 @@ import {MainComponent} from './main/main.component';
 import {LoginComponent} from './login/login.component';
 import {DetailComponent} from './detail/detail.component';
 import { TranslateModule} from "ng2-translate";
+import {FileUploadModule} from "ng2-file-upload";
 
 @NgModule({
   imports: [
     CommonModule,
     TranslateModule,// 每个功能模块均需单独引入
-    HomeRoutingModule
+    HomeRoutingModule,
+    FileUploadModule//上传文件模块
   ],
   declarations: [
     MainComponent,
